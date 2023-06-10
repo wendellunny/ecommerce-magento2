@@ -1,0 +1,8 @@
+type Query {
+    HelloWorld: HelloWorld @resolver(class: "Magento\\HelloWorldGraphQl\\Model\\Resolver\\HelloWorld")
+}
+
+type HelloWorld {
+    message: String
+}
+
