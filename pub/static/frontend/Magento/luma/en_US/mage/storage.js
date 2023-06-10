@@ -1,0 +1,1 @@
+/application/lib/web/mage/storage.js

@@ -1,0 +1,1 @@
+/application/lib/web/jquery/ui-modules/widgets/tabs.js
