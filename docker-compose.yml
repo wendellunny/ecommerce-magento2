@@ -20,6 +20,7 @@ services:
     working_dir: /application
     volumes:
       - '.:/application'
+      - '.docker/mysql/data:/var/lib/mysql'
     environment:
       - MYSQL_ROOT_PASSWORD=secret
       - MYSQL_DATABASE=magento
