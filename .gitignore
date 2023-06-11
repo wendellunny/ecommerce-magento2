@@ -41,5 +41,7 @@ auth.json.sample
 /generated
 /var
 /vendor
+/.docker/mysql
+/pub
 
 
