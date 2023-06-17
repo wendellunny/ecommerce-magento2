@@ -12,6 +12,7 @@ class HelloWorld implements HelloWorldInterface
 
     public function execute(): string
     {
+
         return $this->message;
     }
 }

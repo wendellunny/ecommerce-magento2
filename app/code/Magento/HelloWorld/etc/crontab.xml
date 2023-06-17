@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<config>
+    <group id="helloworld">
+        <job name="helloworld" instance="Magento\HelloWorld\Model\HelloWorldCron" method="execute">
+            <schedule>* * * * *</schedule>
+        </job>
+    </group>
+</config>
