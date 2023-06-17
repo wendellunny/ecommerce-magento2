@@ -9,4 +9,14 @@
             <argument name="message" xsi:type="string">Olá Mundo</argument>
         </arguments>
     </type>
+
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="helloworld" xsi:type="object">
+                    Magento\HelloWorld\Console\Command\HelloWorldCommand
+                </item>
+            </argument>
+        </arguments>
+    </type>
 </config>
